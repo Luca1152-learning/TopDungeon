@@ -5,14 +5,14 @@ using UnityEngine;
 public class Collectable : Collidable
 {
     // Logic
-    protected bool isCollected;
+    private bool isCollected;
 
     protected override void OnCollide(Collider2D collider)
     {
-        if (collider.name == "Player")
-        {
-            OnCollect();
-        }
+        if (collider.name != "Player") return;
+        if (isCollected) return;
+
+        OnCollect();
     }
 
     protected virtual void OnCollect()

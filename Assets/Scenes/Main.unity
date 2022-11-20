@@ -8620,6 +8620,8 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  emptyChestSprite: {fileID: -1005985125, guid: efa2e4e006fc1488eab4ff721b45e22c, type: 3}
+  coinsAmount: 5
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
