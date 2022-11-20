@@ -6563,6 +6563,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: red
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04c927f94eefc437885a343d095e832e
+      internalID: -1704886596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -6587,7 +6608,7 @@ TextureImporter:
       Atlas_271: -1105475778
       Atlas_234: -1183984565
       Atlas_260: 1609987333
-      Atlas_294: 1693052436
+      Atlas_72: 386203024
       Atlas_148: 986471152
       Atlas_30: -14791771
       Atlas_217: -134056043
@@ -6612,10 +6633,10 @@ TextureImporter:
       Atlas_21: 765914634
       Atlas_222: 500279265
       Atlas_307: -1171234315
-      Atlas_304: 102327833
+      Atlas_233: 1693582357
       Atlas_4: -1250248811
       Atlas_36: -65593679
-      Atlas_233: 1693582357
+      Atlas_304: 102327833
       Atlas_254: 166224639
       Atlas_198: 1734749107
       Atlas_45: 887171044
@@ -6624,6 +6645,7 @@ TextureImporter:
       Atlas_187: 166208462
       Atlas_192: -1740384120
       Atlas_210: -1525529668
+      red: -1704886596
       Atlas_98: 205712975
       Atlas_145: -5245052
       Atlas_169: -749778235
@@ -6652,11 +6674,11 @@ TextureImporter:
       Atlas_240: 1599191072
       stairs_2: -263933995
       Atlas_102: 927215120
-      Atlas_144: -1353168272
-      crate_1: 1991061802
-      Atlas_44: -214462608
-      Atlas_156: -970956779
       Atlas_241: 1144490665
+      Atlas_144: -1353168272
+      Atlas_44: -214462608
+      crate_1: 1991061802
+      Atlas_156: -970956779
       Atlas_113: 297858342
       Atlas_15: -2085204625
       Atlas_199: -1615818340
@@ -6722,24 +6744,24 @@ TextureImporter:
       Atlas_181: -700637908
       Atlas_269: -1005985125
       Atlas_305: 657155355
-      Atlas_31: -2096466835
       Atlas_136: -191790446
       Atlas_28: 1324116253
+      Atlas_22: -63024354
       Atlas_266: 2025317698
       Atlas_285: 613627787
-      Atlas_17: 1099421660
+      Atlas_31: -2096466835
       Atlas_151: 531579341
       Atlas_301: 729066097
       wallPillar_0: -1023376919
       Atlas_300: -1107358547
       Atlas_183: 1402460602
+      Atlas_17: 1099421660
       Atlas_230: 880882864
       Atlas_61: 1635700853
       stairs_0: -1946587506
       Atlas_66: -1693356505
       Atlas_59: -430253740
       Atlas_115: -1127870915
-      Atlas_22: -63024354
       Atlas_226: -1763989792
       Atlas_24: -100993709
       Atlas_298: -1618623192
@@ -6902,7 +6924,7 @@ TextureImporter:
       Atlas_175: -1043295545
       Atlas_170: 1774373587
       Atlas_179: 801582195
-      Atlas_72: 386203024
+      Atlas_294: 1693052436
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
