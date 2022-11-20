@@ -1,9 +1,10 @@
 using UnityEngine;
 
-public class Chest : Collidable
+public class Chest : Collectable
 {
-    protected override void OnCollide(Collider2D collider)
+    protected override void OnCollect()
     {
+        base.OnCollect();
         Debug.Log("Grant pesos!");
     }
 }
