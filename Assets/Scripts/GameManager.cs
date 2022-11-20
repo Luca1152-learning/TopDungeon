@@ -39,13 +39,38 @@ public class GameManager : MonoBehaviour
     public int experience;
 
     // Save state
+    /*
+     * int preferredSkin
+     * int numCoins
+     * int experience
+     * int weaponLevel
+     */
     public void SaveState()
     {
-        Debug.Log("Save state");
+        var s = "";
+
+        s += "0" + "|";
+        s += numCoins + "|";
+        s += experience + "|";
+        s += "0";
+
+        PlayerPrefs.SetString("SaveState", s);
     }
 
     public void LoadState(Scene scene, LoadSceneMode mode)
     {
+        if (!PlayerPrefs.HasKey("SaveState"))
+        {
+            return;
+        }
+
+        string[] data = PlayerPrefs.GetString("SaveState").Split("|");
+
+        // TODO - change player skin
+        numCoins = int.Parse(data[1]);
+        experience = int.Parse(data[1]);
+        // TODO - change the weapon level
+
         Debug.Log("Load state");
     }
 }
