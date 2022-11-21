@@ -9758,7 +9758,7 @@ MonoBehaviour:
   weaponPrices: 
   expTable: 
   player: {fileID: 2018215353}
-  floatingTextManager: {fileID: 0}
+  floatingTextManager: {fileID: 973773646}
   numCoins: 0
   experience: 0
 --- !u!4 &1198213329

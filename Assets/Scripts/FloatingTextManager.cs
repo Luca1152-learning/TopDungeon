@@ -17,11 +17,9 @@ public class FloatingTextManager : MonoBehaviour
 
         if (floatingText == null)
         {
-            floatingText = new FloatingText
-            {
-                gameObject = Instantiate(textPrefab, textContainer.transform, true),
-                text = gameObject.GetComponent<Text>()
-            };
+            floatingText = new FloatingText();
+            floatingText.gameObject = Instantiate(textPrefab, textContainer.transform, true);
+            floatingText.text = floatingText.gameObject.GetComponent<Text>();
 
             floatingTexts.Add(floatingText);
         }
@@ -50,7 +48,7 @@ public class FloatingTextManager : MonoBehaviour
 
         floatingText.motion = motion;
         floatingText.duration = duration;
-        
+
         floatingText.Show();
     }
 }

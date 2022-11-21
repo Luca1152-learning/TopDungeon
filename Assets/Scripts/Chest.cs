@@ -10,6 +10,9 @@ public class Chest : Collectable
         base.OnCollect();
 
         GetComponent<SpriteRenderer>().sprite = emptyChestSprite;
-        Debug.Log("Granted " + coinsAmount + " coins!");
+        GameManager.instance.ShowText(
+            "+" + coinsAmount + " coins!", transform.position, 25, Color.yellow,
+            Vector3.up * 25, 1f
+        );
     }
 }
