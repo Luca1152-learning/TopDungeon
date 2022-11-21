@@ -31,12 +31,19 @@ public class GameManager : MonoBehaviour
 
     // References
     public Player player;
+
     // public Weapon weapon;
     // ...
+    public FloatingTextManager floatingTextManager;
 
     // Logic
     public int numCoins;
     public int experience;
+
+    public void ShowText(string text, Vector3 position, int fontSize, Color color, Vector3 motion, float duration)
+    {
+        floatingTextManager.Show(text, position, fontSize, color, motion, duration);
+    }
 
     // Save state
     /*
