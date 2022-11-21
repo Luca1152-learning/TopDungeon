@@ -37,4 +37,12 @@ public class Weapon : Collidable
         lastSwing = Time.time;
         Debug.Log("Swing!");
     }
+
+    protected override void OnCollide(Collider2D collider)
+    {
+        if (collider.tag != "Fighter") return;
+        if (collider.name == "Player") return;
+        
+        Debug.Log(collider.name);
+    }
 }
