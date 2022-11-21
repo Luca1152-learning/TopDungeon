@@ -5,7 +5,7 @@ public class FloatingText
 {
     public GameObject gameObject;
 
-    private Text text;
+    public Text text;
 
     public bool isActive;
 
